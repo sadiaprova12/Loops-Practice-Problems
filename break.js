@@ -14,12 +14,23 @@
 //     }
 // }
 
-var items = ['bottle', 'mouse', 'sunglass', 'pen'];
+// var items = ['bottle', 'mouse', 'sunglass', 'pen'];
 
-for(var i =0; i<items.length; i++){
-    var item = items[i];
-    if(item == 'pen'){
+// for(var i =0; i<items.length; i++){
+//     var item = items[i];
+//     if(item == 'pen'){
+//         break;
+//     }
+//     console.log(item);
+// }
+
+
+ var numbers = [45, 87, 89, 56, 32, 51, 25];
+
+ for(var i =0; i < 7; i++){
+     var number = numbers[i];
+     if(number > 100 ){
         break;
-    }
-    console.log(item);
-}
+     }
+     console.log(number);
+ }
