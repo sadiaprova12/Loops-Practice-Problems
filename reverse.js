@@ -11,6 +11,9 @@ while (num >= 1){
     num--;
 }
 
+/** 
+ * Reversing for loop way
+ */
 // 1-10
 for(var i = 1; i <= 10; i++ ){
     //console.log(i);
