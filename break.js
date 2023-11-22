@@ -5,11 +5,21 @@
 //     }
 // }
 
-var roastGiven = 0;
-while(roastGiven < 10){
-    console.log('Give me a roast!');
-    roastGiven++;
-    if(roastGiven < 4){
+// var roastGiven = 0;
+// while(roastGiven < 10){
+//     console.log('Give me a roast!');
+//     roastGiven++;
+//     if(roastGiven < 4){
+//         break;
+//     }
+// }
+
+var items = ['bottle', 'mouse', 'sunglass', 'pen'];
+
+for(var i =0; i<items.length; i++){
+    var item = items[i];
+    if(item == 'pen'){
         break;
     }
+    console.log(item);
 }
